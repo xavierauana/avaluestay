@@ -1,0 +1,76 @@
+@planMaxWidth: 500px;
+@planWidth: 75%;
+
+@headingBackgroundColor: #97d423;
+@headingColor: #ffffff;
+
+@defaultBorderColor: #bebebe;
+@hoverBorderColor: #008000;
+
+@priceBackgroundColor: #e2e4c5;
+@priceFontSize: 2em;
+
+div.plans{
+  width:@planWidth;
+  max-width: @planMaxWidth;
+  border: 2px solid @defaultBorderColor;
+  margin-bottom: 15px;
+
+  .heading{
+    padding: 15px;
+    background-color: @headingBackgroundColor;
+    color: @headingColor;
+  }
+
+  .price{
+    background-color: @priceBackgroundColor;
+    color: darken(@priceBackgroundColor, 40%);
+    .priceTag{
+      padding:10px;
+      height: 20px;
+      .dollarSign{
+        font-size: @priceFontSize/2;
+        line-height: 100%;
+      }
+      .dollar{
+        font-size: @priceFontSize;
+        line-height: 100%;
+      }
+      .cents{
+        font-size: @priceFontSize/2;
+        line-height: 100%;
+      }
+    }
+    .perUnit{
+      font-size: @priceFontSize/2;
+      line-height: 100%;
+    }
+  }
+
+  ul.privilege-list{
+    li{
+      padding:10px;
+      margin: 0;
+      color: darken(@defaultBorderColor, 30%);
+      border-bottom: 1px solid @defaultBorderColor;
+    }
+  }
+  p.description{
+    background-color: transparent;
+    color: darken(@defaultBorderColor, 30%);
+  }
+  a.btn{
+    margin-bottom: 15px;
+  }
+  a.btn:hover{
+    transition: all 0.2s linear;
+    box-shadow: 2px 2px 10px 1px #c0c0c0;
+  }
+
+}
+
+
+
+div.plans:hover{
+  border: 2px solid @hoverBorderColor;
+}

@@ -2,14 +2,96 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/test/coffee_bin/main.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/resolve/test/resolver/cup.js" />
+        <item url="file://$PROJECT_DIR$/resources/assets/js/editor.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/node_modules/resolve/test/resolver/cup.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/js-tokens/regex.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/test/coffeeify/main.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/resolve/test/resolver/cup.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/require-dir/test/simple/c.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/node_modules/resolve/test/resolver/cup.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/node_modules/resolve/test/resolver/mug.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/node_modules/http-browserify/node_modules/Base64/test/base64.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/bootstrap-sweetalert/Gruntfile.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/node_modules/resolve/test/resolver/mug.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/test/coffee_bin/main.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/test/coffee_bin/x.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/js-tokens/regex.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-notify/node_modules/node-notifier/node_modules/shellwords/spec/shellwords_spec.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-coffee/test/fixtures/grammar.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-notify/node_modules/node-notifier/node_modules/shellwords/src/shellwords.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/source-map-support/amd-test/script.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/source-map-support/amd-test/script.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/source-map-support/header-test/script.js" />
+        <item url="file://$PROJECT_DIR$/resources/assets/js/JShelpers.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/source-map-support/header-test/script.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/source-map-support/browser-test/script.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/source-map-support/browser-test/script.js" />
+        <item url="file://$PROJECT_DIR$/resources/assets/js/conversations.js" />
+        <item url="file://$PROJECT_DIR$/resources/assets/js/registration.js" />
+        <item url="file://$PROJECT_DIR$/resources/assets/js/subscription.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/resolve/test/resolver/mug.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/resolve/test/resolver/mug.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/accord/node_modules/resolve/test/resolver/mug.js" />
         <item url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/cup.js" />
         <item url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/mug.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/accord/node_modules/resolve/test/resolver/cup.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/test/coffeeify/main.js" />
+        <item url="file://$PROJECT_DIR$/resources/assets/js/creditCardValidation.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/test/coffee_bin/x.js" />
         <item url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/test/fixtures/test.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/node_modules/ember-cli-dropzonejs/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/source-map-support/amd-test/script.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/ember-cli-dropzonejs/node_modules/ember-cli-babel/node_modules/resolve/test/resolver/cup.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/ember-cli-dropzonejs/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/source-map-support/header-test/script.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/ember-cli-dropzonejs/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/source-map-support/browser-test/script.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/ember-cli-dropzonejs/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/js-tokens/regex.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/ember-cli-dropzonejs/node_modules/ember-cli-babel/node_modules/resolve/test/resolver/mug.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/test/coffee_bin/main.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/resolve/test/resolver/cup.js" />
+      <root url="file://$PROJECT_DIR$/resources/assets/js/editor.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/node_modules/resolve/test/resolver/cup.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/js-tokens/regex.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/test/coffeeify/main.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/resolve/test/resolver/cup.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/require-dir/test/simple/c.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/node_modules/resolve/test/resolver/cup.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/node_modules/resolve/test/resolver/mug.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/node_modules/http-browserify/node_modules/Base64/test/base64.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/bootstrap-sweetalert/Gruntfile.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/node_modules/resolve/test/resolver/mug.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/test/coffee_bin/main.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/watchify/node_modules/browserify/test/coffee_bin/x.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/js-tokens/regex.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-notify/node_modules/node-notifier/node_modules/shellwords/spec/shellwords_spec.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-coffee/test/fixtures/grammar.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-notify/node_modules/node-notifier/node_modules/shellwords/src/shellwords.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/source-map-support/amd-test/script.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/source-map-support/amd-test/script.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/source-map-support/header-test/script.js" />
+      <root url="file://$PROJECT_DIR$/resources/assets/js/JShelpers.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/source-map-support/header-test/script.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/source-map-support/browser-test/script.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/source-map-support/browser-test/script.js" />
+      <root url="file://$PROJECT_DIR$/resources/assets/js/conversations.js" />
+      <root url="file://$PROJECT_DIR$/resources/assets/js/registration.js" />
+      <root url="file://$PROJECT_DIR$/resources/assets/js/subscription.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-babel/node_modules/babel-core/node_modules/resolve/test/resolver/mug.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/babelify/node_modules/babel-core/node_modules/resolve/test/resolver/mug.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/accord/node_modules/resolve/test/resolver/mug.js" />
       <root url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/cup.js" />
       <root url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/mug.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/accord/node_modules/resolve/test/resolver/cup.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/test/coffeeify/main.js" />
+      <root url="file://$PROJECT_DIR$/resources/assets/js/creditCardValidation.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browserify/test/coffee_bin/x.js" />
       <root url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/test/fixtures/test.js" />
     </CLASSES>
     <SOURCES />

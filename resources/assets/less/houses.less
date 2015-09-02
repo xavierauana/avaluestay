@@ -1,0 +1,25 @@
+@mainItemHeight: 314px;
+@descriptionHeight: 100px;
+@descriptionWidth: 150px;
+.main-item{
+  position:relative;
+  height: @mainItemHeight;
+  margin-bottom: 15px;
+
+  img{
+    max-height: 314px;
+  }
+
+  .description{
+    position: absolute;
+    top: calc(@mainItemHeight - @descriptionHeight);
+    height:@descriptionHeight;
+    width:@descriptionWidth;
+    background-color: white;
+  }
+
+  iframe{
+    width:100%;
+    height: @mainItemHeight;
+  }
+}

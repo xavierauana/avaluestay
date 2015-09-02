@@ -1,14 +1,14 @@
 <?php
-    /**
-     * Author: Xavier Au
-     * Date: 22/8/15
-     * Time: 9:57 PM
-     */
+/**
+ * Author: Xavier Au
+ * Date: 22/8/15
+ * Time: 9:57 PM
+ */
 
-    namespace app\Contracts;
+namespace avaluestay\Contracts;
 
 
-    interface PropertyInterface
-    {
+interface PropertyInterface
+{
 
-    }
+}

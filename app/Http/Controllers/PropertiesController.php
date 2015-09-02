@@ -2,32 +2,33 @@
 
 namespace avaluestay\Http\Controllers;
 
-use avaluestay\bankinfo;
 use avaluestay\Contracts\BankInfoInterface;
 use avaluestay\Contracts\PropertyInterface;
 use avaluestay\Contracts\PropertyTypeInterface;
 use avaluestay\Contracts\RoomInterface;
-use avaluestay\Services\MediaManagementServices;
-use Illuminate\Http\Request;
-
 use avaluestay\Http\Requests;
-use avaluestay\Http\Controllers\Controller;
+use avaluestay\Http\Requests\property\CreatePropertyRequest;
+use avaluestay\Services\MediaManagementServices;
+use avaluestay\Services\PropertyManager;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Symfony\Component\HttpFoundation\File\Exception\AccessDeniedException;
 
 class PropertiesController extends Controller
 {
 
     private $properties;
+    private $propertyManager;
 
     /**
      * PropertiesController constructor.
      *
-     * @param $properties
+     * @param \avaluestay\Contracts\PropertyInterface $properties
+     * @param \avaluestay\Services\PropertyManager    $propertyManager
      */
-    public function __construct(PropertyInterface $properties)
+    public function __construct(PropertyInterface $properties, PropertyManager $propertyManager)
     {
         $this->properties = $properties;
+        $this->propertyManager = $propertyManager;
     }
 
 
@@ -41,7 +42,7 @@ class PropertiesController extends Controller
         $properties = $this->properties->whereUserId(Auth::user()->id)->get();
         $properties = $properties->groupBy("approvalStatus");
 
-        return view("back.pages.properties.myListing",compact("properties"));
+        return view("back.pages.properties.myListing", compact("properties"));
     }
 
     /**
@@ -57,44 +58,26 @@ class PropertiesController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  Request  $request
+     * @param  Request $request
      * @return Response
      */
-    public function store(Request $request, PropertyTypeInterface $pType, RoomInterface $rType, BankInfoInterface $bank )
+    public function store(CreatePropertyRequest $request)
     {
-            $rules = [
-                "propertyType" => "required|in:".implode(",",$pType->lists('id')->toArray()),
-                "roomType" => "required|in:".implode(",",$rType->lists('id')->toArray()),
-                "accommodates" => "required|between:1,17",
-                "city" => "required",
-            ];
-            $this->validate($request,$rules);
-            $this->properties->user_id = Auth::user()->id;
-            $this->properties->propertyType_id = $request->get("propertyType");
-            $this->properties->roomType_id = $request->get("roomType");
-            $this->properties->bedType_id = 1;
-            $this->properties->commission_id = 1;
-            $this->properties->accommodates = $request->get("accommodates");
-            $this->properties->city = $request->get("city");
-            $this->properties->currency_id = env("BASE_CURRENCY_CODE");
-            $this->properties->save();
-            $bank->property_id = $this->properties->id;
-            $bank->save();
+        $newProperty = $this->propertyManager->createANewProperty($request->all());
 
-
-            return redirect("/properties/next/".$this->properties->id);
+        return redirect("/properties/next/" . $newProperty->id);
 
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return Response
      */
     public function show(Request $request, $id)
     {
-        if($request->ajax()){
+        if ($request->ajax()) {
             return $this->properties->findOrFail($id)->toArray();
         }
     }
@@ -102,7 +85,7 @@ class PropertiesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return Response
      */
     public function edit($id)
@@ -113,45 +96,45 @@ class PropertiesController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  Request  $request
-     * @param  int  $id
+     * @param  Request $request
+     * @param  int     $id
      * @return Response
      */
     public function update(Request $request, $propertyId)
     {
 //        if($request->ajax()){
-            if($request->has("formname")){
+        if ($request->has("formname")) {
 
-                switch($request->get('formname')){
-                    case "form_basic":
-                        return $this->updatePropertyBasic($request, $propertyId);
-                        break;
-                    case "form_location":
-                        return $this->updatePropertyLocation($request, $propertyId);
-                        break;
-                    case "form_description":
-                        return $this->updatePropertyDescription($request, $propertyId);
-                        break;
-                    case "form_facilities":
-                        return $this->updatePropertyFacilities($request, $propertyId);
-                        break;
-                    case "form_pricing":
-                        return $this->updatePropertyPricing($request, $propertyId);
-                        break;
-                    case "form_locationDescription":
-                        return $this->updatePropertyLocationDescription($request, $propertyId);
-                        break;
-                }
-
-                return ['response'=>$request->get('formname')." don't have this operation"];
+            switch ($request->get('formname')) {
+                case "form_basic":
+                    return $this->updatePropertyBasic($request, $propertyId);
+                    break;
+                case "form_location":
+                    return $this->updatePropertyLocation($request, $propertyId);
+                    break;
+                case "form_description":
+                    return $this->updatePropertyDescription($request, $propertyId);
+                    break;
+                case "form_facilities":
+                    return $this->updatePropertyFacilities($request, $propertyId);
+                    break;
+                case "form_pricing":
+                    return $this->updatePropertyPricing($request, $propertyId);
+                    break;
+                case "form_locationDescription":
+                    return $this->updatePropertyLocationDescription($request, $propertyId);
+                    break;
             }
+
+            return ['response' => $request->get('formname') . " don't have this operation"];
+        }
 //        }
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return Response
      */
     public function destroy($id)
@@ -162,7 +145,7 @@ class PropertiesController extends Controller
     public function registrationNext($propertyId)
     {
         $theProperty = $this->getThePropertyWithRightOwner($propertyId);
-        if($theProperty){
+        if ($theProperty) {
             return view("back.pages.properties.nextCreateSteps", compact("theProperty"));
         }
     }
@@ -170,13 +153,8 @@ class PropertiesController extends Controller
     private function updatePropertyLocation(Request $request, $propertyId)
     {
         $property = $this->getThePropertyWithRightOwner($propertyId);
-        $property->address1 = $request->get('address1');
-        $property->address2 = $request->get('address2');
-        $property->address3 = $request->get('address3');
-        $property->city = $request->get('city');
-        $property->country = $request->get('country');
-        $property->save();
-        return $property;
+
+        return $property->updatePropertyLocation($request);
     }
 
     private function updatePropertyDescription(Request $request, $propertyId)
@@ -185,6 +163,7 @@ class PropertiesController extends Controller
         $property->name = $request->get('name');
         $property->summary = $request->get('summary');
         $property->save();
+
         return $property;
     }
 
@@ -192,7 +171,7 @@ class PropertiesController extends Controller
     {
         $property = $this->getThePropertyWithRightOwner($propertyId);
         $facilityIds = [];
-        if($request->has("facilities")){
+        if ($request->has("facilities")) {
             $facilityIds = array_keys($request->get("facilities"));
         }
         $property->facilities()->sync($facilityIds);
@@ -209,14 +188,16 @@ class PropertiesController extends Controller
 //        $property->currency_id = $request->get('currency_id');
         $property->beds = $request->get('beds');
         $property->save();
+
         return $property;
     }
 
     private function updatePropertyPricing(Request $request, $propertyId)
     {
         $property = $this->getThePropertyWithRightOwner($propertyId);
-        $property->price = (int) $request->get("pricing");
+        $property->price = (int)$request->get("pricing");
         $property->save();
+
         return $property;
     }
 
@@ -231,17 +212,19 @@ class PropertiesController extends Controller
         if (!$property) {
             abort(403, 'Unauthorized action. you are not the property owner');
         }
+
         return $property;
     }
 
     public function uploadMedia(Request $request, $propertyId)
     {
-        if($request->file("file")){
+        if ($request->file("file")) {
             $fh = new MediaManagementServices();
             $media = $fh->saveUploadFile($request->file("file"), null, null, $propertyId);
             $media->tag = $request->get('tag');
             $media->save();
-            return ["response"=>"completed"];
+
+            return ["response" => "completed"];
         }
     }
 
@@ -250,20 +233,23 @@ class PropertiesController extends Controller
         $property = $this->getThePropertyWithRightOwner($propertyId);
         $property->locationDescription = $request->get("locationDescription");
         $property->save();
+
         return $property;
     }
 
     public function toggleListingStatus($propertyId)
     {
         $property = $this->getThePropertyWithRightOwner($propertyId);
-        if($property->listingStatus == "unlist"){
+        if ($property->listingStatus == "unlist") {
             $property->listingStatus = "listing";
             $property->save();
-            return ['response'=>'completed', 'status'=>'listing'];
-        }else{
+
+            return ['response' => 'completed', 'status' => 'listing'];
+        } else {
             $property->listingStatus = "unlist";
             $property->save();
-            return ['response'=>'completed', 'status'=>'unlist'];
+
+            return ['response' => 'completed', 'status' => 'unlist'];
         }
     }
 

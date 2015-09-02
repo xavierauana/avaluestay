@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: avaluestay
+        psr4_prefix: avaluestay
+        src_path: app

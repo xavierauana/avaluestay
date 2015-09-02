@@ -1,0 +1,32 @@
+@conversationBorderRadius: 3px;
+@conversationMarginBottom: 10px;
+@conversationBoxHeight: 600px;
+@conversationTextPaddingTop: 5px;
+.panel.conversations {
+  .messageBox{
+    max-height: @conversationBoxHeight;
+    overflow-y: scroll;
+  }
+  small p{
+    margin-bottom: 5px;
+  }
+  .mine {
+    border-radius: @conversationBorderRadius;
+    background-color: lighten(@btn-success-bg, 20%);
+    margin-bottom: @conversationMarginBottom;
+    p{
+      padding-top:@conversationTextPaddingTop;
+      color: darken(@btn-success-bg, 30%)
+    }
+  }
+
+  .sender{
+    border-radius: @conversationBorderRadius;
+    background-color: lighten(@btn-info-bg,20%);
+    margin-bottom: @conversationMarginBottom;
+    p{
+      padding-top:@conversationTextPaddingTop;
+      color: darken(@btn-info-bg, 30%)
+    }
+  }
+}

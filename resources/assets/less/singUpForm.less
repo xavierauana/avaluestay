@@ -1,0 +1,51 @@
+#signUpForm{
+
+  .modal-content{
+    border-radius: 0;
+  }
+
+  .signUpButton{
+    border-radius: 0;
+  }
+  .signUpButton.facebook{
+    background-color: @facebookBlue;
+    color:white;
+  }
+  .signUpButton.google{
+    background-color: white;
+    color:grey;
+  }
+  .signUpButton.email{
+    background-color: @themePurple;
+    color:white;
+  }
+
+  .modal-body{
+    min-height: 300px;
+
+    .signUpSeparator{
+      position: relative;
+      margin-bottom: 15px;
+
+      p{
+        display: inline-block;
+        position:absolute;
+        background-color: transparent;
+        left:0;
+        right:0;
+        top:-10px;
+      }
+    }
+
+    #emailSignUp{
+      input{
+        border-radius: 0;
+        margin-bottom: 15px;
+      }
+      .signUpButton{
+      }
+    }
+  }
+
+
+}

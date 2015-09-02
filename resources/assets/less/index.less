@@ -1,0 +1,117 @@
+.header-img-container{
+  background-color: @themeRed;
+}
+.navbar-brand{
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+
+/* this is contorl the carousel and it caption*/
+.carousel-inner{
+  position:relative;
+
+  .carousel-caption {
+    position:absolute;
+    top:200px;
+
+    span {
+      padding-left: 5px;
+      padding-right: 5px;
+      background-color: rgba(255,0,0,0.3);
+    }
+    a {
+      border:2px solid @themeRed;
+      padding:5px;
+      color:white;
+    }
+  }
+}
+/*----------------------------------------*/
+
+
+/*This contorl the top input box*/
+div.content-container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*------------------------------*/
+
+
+
+/*This contorl the top input box*/
+@import "indexSerachForm";
+/*------------------------------*/
+
+
+
+
+/* Advertisment Sections */
+.ad-container{
+  overflow: hidden;
+
+  img{
+    width:100%;
+  }
+}
+
+#ad1, #ad2{
+  margin-bottom: 20px;
+}
+
+#ad1{
+  height: 122px;
+  background-color:yellow;
+}
+#ad2{
+  height: 250px;
+  background-color:pink;
+}
+#ad3{
+  height: 250px;
+}
+#ad4{
+  height: 250px;
+}
+/*-------------------------------*/
+
+
+/* Hotel Items */
+#promotion-item{
+  position: relative;
+  height: 376px;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  .description{
+    position: absolute;
+    bottom:0;
+    left:15px;
+    color:white;
+    font-size: 2em;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+  }
+}
+
+.category {
+  .imgSquare{
+    overflow: hidden;
+    height: 100%;
+
+    p.description{
+      color:white;
+      position:absolute;
+      left:15px;
+      bottom: 0;
+      font-size: 2em;
+    }
+  }
+}
+/*-------------*/
+
+
+#headerLoginButton{
+  padding: 15px;
+  min-width: 200px;
+}

@@ -1,3 +1,5 @@
+@inject('message', 'avaluestay\Contracts\MessageInterface')
+
 <!-- This header section is nearly same as the others, only the header image change to a carousel section -->
 <header class="">
     <div class="container">
@@ -11,28 +13,47 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href=""><i class="fa fa-phone"></i> (852) 1234 5678</a></li>
                 <li><a href=""><i class="fa fa-envelope-o"></i> testing@testing.com</a></li>
-                {{--<li role="presentation" class="dropdown">--}}
-                    {{--<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">--}}
-                        {{--English <span class="caret"></span>--}}
-                    {{--</a>--}}
-                    {{--<ul class="dropdown-menu">--}}
-                        {{--...--}}
-                    {{--</ul>--}}
-                {{--</li>--}}
-                {{--<li><a href="" title="">Book Now</a></li>--}}
-
                 @if(Auth::user())
-                    <li><a href="{{route("properties.create")}}" >List Your Space</a></li>
-                    <li class="dropdown">
-                        <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {{Auth::user()->name}}
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="dLabel" id="userDropDown">
-                            <li><a href="/profile">My Account</a></li>
-                            <li><a href="/auth/logout">Logout</a></li>
-                        </ul>
-                    </li>
+                    @if(Auth::user()->hasRole('manager'))
+                        <li><a href="/manager/properties"> Manage Properties</a></li>
+                        <li><a href="/manager/invoices"> Invoices</a></li>
+                    @endif
+                        <li><a href="{{route("properties.create")}}" >List Your Space</a></li>
+                <li><a href="/messages">Massages @if($message->totalUnreadMessages->count() > 0) <span class="badge"> {{$message->totalUnreadMessages->count()}}</span> @endif</a></li>
+                {{--<li class="dropdown">--}}
+                    {{--<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+                        {{--Notification--}}
+                        {{--@if(Auth::user()->hasNotice())--}}
+                            {{--<span class="badge">{{Auth::user()->notices()->whereStatus(0)->count()}}</span>--}}
+                        {{--@endif--}}
+                        {{--<span class="caret"></span>--}}
+                    {{--</a>--}}
+                    {{--@if(Auth::user()->hasNotice())--}}
+                    {{--<ul class="dropdown-menu" aria-labelledby="dLabel" id="userDropDown">--}}
+
+                            {{--@foreach(Auth::user()->fetchNotices() as $noticeGroup=>$items)--}}
+                                {{--<li class="dropdown-header">{{ucwords($noticeGroup)}}</li>--}}
+                                {{--<li role="separator" class="divider"></li>--}}
+                                {{--@foreach($items as $notice)--}}
+                                    {{--<li>--}}
+                                        {{--<a href="">{{$notice->event}} {{$notice->object}}</a>--}}
+                                    {{--</li>--}}
+                                {{--@endforeach--}}
+                            {{--@endforeach--}}
+                    {{--</ul>--}}
+                    {{--@endif--}}
+                {{--</li>--}}
+                <li class="dropdown">
+                    <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{Auth::user()->name}}
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel" id="userDropDown">
+                        <li><a href="/profile">My Account</a></li>
+                        <li><a href="/properties">My Listing</a></li>
+                        <li><a href="/auth/logout">Logout</a></li>
+                    </ul>
+                </li>
                 @else
                     <li><a href="" title="" data-toggle="modal" data-target="#signUpForm" >Sign Up</a></li>
                     <li class="dropdown">
@@ -56,7 +77,8 @@
             </ul>
         </nav>
     </div>
-    <div class="header-img-container">
+    @if(Request::path() == '/')
+        <div class="header-img-container">
         <!-- This carousel section is only use in index page -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
@@ -100,4 +122,5 @@
             </nav>
         </div>
     </div>
+    @endif
 </header>

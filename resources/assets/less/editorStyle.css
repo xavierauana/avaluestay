@@ -1,0 +1,4 @@
+div.form-control.editable {
+  height: 300px;
+  overflow-y: scroll;
+}
