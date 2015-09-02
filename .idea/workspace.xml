@@ -7,101 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62b0d0d1-0c22-452e-903b-8007fb27dffd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/index_header_img_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/index_header_img_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/index_header_img_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/imgs/logo_sm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/BankInfoInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/BedInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/CurrencyInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/FacilityInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Services/FileHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/JShelpers.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/MediaInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Services/MediaManagementServices.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/NoticeInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/PropertiesController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/PropertyInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Services/PropertyManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/PropertyTypeInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/RoomInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Contracts/WishListInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/app.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/back.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/emails/booking.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/pages/partials/bookingForm.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/conversations.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/conversations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/layouts/partials/creditCardEntries.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/creditCardValidation.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/layouts/partials/creditModal.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Helpers/date.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/layouts/default.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/dropzone.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/editor.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/editorStyle.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/layouts/partials/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/formPreviewMedia.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_bankinfo.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_basic.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_description.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_facilities.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_location.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_locationDescription.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_media.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_pricing.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_services.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/general.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/layouts/partials/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/header.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/houseDetail.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/pages/houses.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/houses.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/layouts/partials/housesFilters.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/messages/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/indexSerachForm.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Helpers/invoices.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/jsvariables.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/loginPage.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/pages/partials/messageModal.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/moment-range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/moment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/myListing.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/myListing.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/nextCreateSteps.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/layouts/partials/payAsiaForm_subscription.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/plans.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/users/profile.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/manager/properties.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/manager/propertyDetail.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/propertyForm.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/registration.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/layouts/partials/sampleCreditCard.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/messages/show.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/layouts/partials/signUpForm.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/singUpForm.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/socket.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/users/subscription.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/subscription.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/layouts/partials/subscriptionModal.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/template_serviceForm.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/back/pages/properties/partials/testingForm.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/testingevent.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vagrant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php" afterPath="$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/property.php" afterPath="$PROJECT_DIR$/app/property.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="avaluestay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,18 +33,135 @@
     <favorites_list name="avaluestay" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3598485">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="FrontEndController.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.51282054">
+                  <caret line="77" column="49" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="49" />
+                  <folding>
+                    <element signature="e#47#90#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bookingForm.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/front/pages/partials/bookingForm.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-82.5">
+                  <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="FrontEndController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-25.041666">
+                  <caret line="73" column="56" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+                  <folding>
+                    <element signature="e#47#90#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="property.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/property.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-11.625">
+                  <caret line="135" column="68" selection-start-line="135" selection-start-column="68" selection-end-line="135" selection-end-column="68" />
+                  <folding>
+                    <element signature="e#30#73#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="house_detail.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-19.125">
+                  <caret line="335" column="18" selection-start-line="335" selection-start-column="18" selection-end-line="335" selection-end-column="18" />
+                  <folding>
+                    <marker date="1441176345000" expanded="true" signature="81:438" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="113:152" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="170:438" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="206:438" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="246:307" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="350:405" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="1035:4880" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="1070:3843" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="1136:1246" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="1304:2328" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="1424:1575" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="1703:1861" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="1938:2102" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="2153:2304" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="2370:2503" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="2453:2480" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="2565:2920" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="2608:2670" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="2714:2897" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="2792:2870" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3011:3824" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3059:3166" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3224:3563" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3293:3536" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3381:3505" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3618:3801" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3743:3774" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3878:4880" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3923:4300" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="3983:4277" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="4062:4250" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="4179:4219" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="4338:4880" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="4375:4569" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="4403:4542" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="4820:4880" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="5058:5117" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="5227:5290" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="5418:5715" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="5772:5907" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="5967:6077" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="6285:7318" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="6324:7267" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="6368:7207" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="6415:6626" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="6671:6893" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="6771:6866" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="6940:7184" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="7455:8054" placeholder="..." />
+                    <marker date="1441176345000" expanded="true" signature="8111:8135" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ManagerController.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ManagerController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.35042736">
+                  <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#47#89#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/BankAccount.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/property/CreatePropertyRequest.php" />
         <option value="$PROJECT_DIR$/resources/views/back/pages/properties/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Services/PropertyManager.php" />
@@ -171,7 +198,6 @@
         <option value="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_locationDescription.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_description.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/back/pages/properties/partials/form_services.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" />
         <option value="$PROJECT_DIR$/resources/views/back/pages/messages/show.blade.php" />
         <option value="$PROJECT_DIR$/app/message.php" />
         <option value="$PROJECT_DIR$/resources/views/back/pages/messages/index.blade.php" />
@@ -190,18 +216,20 @@
         <option value="$PROJECT_DIR$/app/Jobs/SendInvoicePaidEmail.php" />
         <option value="$PROJECT_DIR$/resources/views/back/layouts/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" />
         <option value="$PROJECT_DIR$/app/booking.php" />
         <option value="$PROJECT_DIR$/app/invoice.php" />
         <option value="$PROJECT_DIR$/app/serviceBooking.php" />
         <option value="$PROJECT_DIR$/resources/views/back/pages/manager/invoices.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/pages/partials/bookingForm.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_08_30_111709_create_reviews_table.php" />
         <option value="$PROJECT_DIR$/resources/views/front/pages/houses.blade.php" />
-        <option value="$PROJECT_DIR$/app/property.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/resources/views/back/pages/manager/propertyDetail.blade.php" />
+        <option value="$PROJECT_DIR$/app/property.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" />
       </list>
     </option>
   </component>
@@ -506,7 +534,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20895523" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -518,6 +545,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954075" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19632606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -570,13 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/assets/less/back.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/editor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3558719">
@@ -724,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5702076">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Helpers/date.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25641027">
@@ -763,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0512822">
           <caret line="56" column="84" selection-start-line="56" selection-start-column="84" selection-end-line="56" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1721612">
           <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="e#35#77#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,15 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21978022">
           <caret line="18" column="34" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/back/pages/manager/propertyDetail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73626375">
-          <caret line="96" column="10" selection-start-line="4" selection-start-column="4" selection-end-line="96" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51770455">
           <caret line="69" column="40" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,17 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.4749694">
           <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84249085">
-          <caret line="63" column="74" selection-start-line="63" selection-start-column="74" selection-end-line="63" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,17 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1941392">
           <caret line="27" column="76" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ManagerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12576313">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#47#89#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,15 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62271065">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/booking.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73260075">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,15 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/partials/bookingForm.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65909094">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62271065">
           <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5338078">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,29 +893,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5494506">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/test/less-bom/errors/property-asterisk-only-name.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32967034">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back/pages/manager/propertyDetail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15151516">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/property.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62271065">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state vertical-scroll-proportion="-11.625">
+          <caret line="135" column="68" selection-start-line="135" selection-start-column="68" selection-end-line="135" selection-end-column="68" />
           <folding>
             <element signature="e#30#73#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/partials/bookingForm.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3598485">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="-82.5">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.041666">
+          <caret line="73" column="56" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+          <folding>
+            <element signature="e#47#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7948718">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.125">
+          <caret line="335" column="18" selection-start-line="335" selection-start-column="18" selection-end-line="335" selection-end-column="18" />
+          <folding>
+            <marker date="1441176345000" expanded="true" signature="81:438" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="113:152" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="170:438" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="206:438" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="246:307" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="350:405" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="1035:4880" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="1070:3843" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="1136:1246" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="1304:2328" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="1424:1575" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="1703:1861" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="1938:2102" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="2153:2304" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="2370:2503" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="2453:2480" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="2565:2920" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="2608:2670" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="2714:2897" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="2792:2870" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3011:3824" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3059:3166" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3224:3563" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3293:3536" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3381:3505" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3618:3801" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3743:3774" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3878:4880" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3923:4300" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="3983:4277" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="4062:4250" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="4179:4219" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="4338:4880" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="4375:4569" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="4403:4542" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="4820:4880" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="5058:5117" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="5227:5290" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="5418:5715" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="5772:5907" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="5967:6077" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="6285:7318" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="6324:7267" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="6368:7207" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="6415:6626" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="6671:6893" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="6771:6866" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="6940:7184" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="7455:8054" placeholder="..." />
+            <marker date="1441176345000" expanded="true" signature="8111:8135" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ManagerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35042736">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#47#89#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
