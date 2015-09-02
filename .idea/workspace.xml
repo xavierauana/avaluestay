@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62b0d0d1-0c22-452e-903b-8007fb27dffd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEndController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php" afterPath="$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/property.php" afterPath="$PROJECT_DIR$/app/property.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/pages/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/pages/index.blade.php" />
     </list>
     <ignored path="avaluestay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -147,14 +142,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ManagerController.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ManagerController.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ManagerController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35042736">
-                  <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                <state vertical-scroll-proportion="-14.458333">
+                  <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
                   <folding>
                     <element signature="e#47#89#0#PHP" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/views/front/pages/index.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.43956044">
+                  <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -179,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Requests/property/CreatePropertyRequest.php" />
         <option value="$PROJECT_DIR$/resources/views/back/pages/properties/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Services/PropertyManager.php" />
         <option value="$PROJECT_DIR$/resources/views/front/layouts/default.blade.php" />
@@ -230,6 +234,7 @@
         <option value="$PROJECT_DIR$/resources/views/front/pages/house_detail.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/back/pages/manager/invoiceDetail.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/pages/index.blade.php" />
       </list>
     </option>
   </component>
@@ -598,13 +603,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3558719">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/editor.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.071174376">
@@ -1022,11 +1020,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ManagerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35042736">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state vertical-scroll-proportion="-14.458333">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
           <folding>
             <element signature="e#47#89#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43956044">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -34,7 +34,7 @@
             </a>
         </div>
         <div class="row">
-            <a href="/destination/{{urlencode("Hong Kong")}}">
+            <a href="/?destination={{urlencode("Hong Kong")}}">
                 <div class="col-sm-6 col-md-4 imgSquare">
                     <img src="http://lorempixel.com/700/700/abstract" alt="" class="img-responsive">
                     <p class="description">HONG KONG</p>
