@@ -23,12 +23,12 @@ class ManagerController extends Controller
 
     public function invoices(InvoiceInterface $invoices)
     {
-        return view("back.pages.manager.invoices", ["invoices" => $invoices->all()]);
+        $invoices = $invoices->orderBy('created_at','desc')->get();
+        return view("back.pages.manager.invoices", compact("invoices"));
     }
 
     public function showInvoice(InvoiceInterface $invoice, $orderId)
     {
-
         return view("back.pages.manager.invoiceDetail", ["invoice" => $invoice->findOrFail($orderId)]);
     }
 

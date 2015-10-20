@@ -1,6 +1,7 @@
 @extends('front.layouts.default')
 
 @section("content")
+
     <div id="hose_detail">
         <h1 class="page-title">
             House Detail
@@ -217,6 +218,7 @@
                     duration: 0,
                     messages: [],
                     selectedServiceIds: [],
+                    unavailableDates: avaluestay.unavailableDates,
                     overallTotal: 0
                 }
             },
@@ -320,11 +322,13 @@
                 },
                 initializeDateTimePicker: function () {
                     $('#checkInDate').datetimepicker({
-                        format: 'DD MMMM YYYY'
+                        format: 'DD MMMM YYYY',
+                        disabledDates: this.unavailableDates
                     });
                     $('#checkOutDate').datetimepicker({
                         useCurrent: false, //Important! See issue #1075
-                        format: 'DD MMMM YYYY'
+                        format: 'DD MMMM YYYY',
+                        disabledDates: this.unavailableDates
                     });
                     $("#checkInDate").on("dp.change", function (e) {
                         $('#checkOutDate').data("DateTimePicker").minDate(e.date.add(1, 'd'));

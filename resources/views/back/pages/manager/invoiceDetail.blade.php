@@ -59,9 +59,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Invoice Paid at</td>
+                    <td>Invoice Create at</td>
                     <td>
-                        {{$invoice->updated_at->format('d F Y h:i a')}} HK Time
+                        {{$invoice->create_at->format('d F Y h:i a')}} HK Time
                     </td>
                 </tr>
 

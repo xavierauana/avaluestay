@@ -3,6 +3,7 @@
 namespace avaluestay;
 
 use avaluestay\Contracts\PropertyInterface;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
@@ -122,6 +123,32 @@ class property extends Model implements PropertyInterface
     public function reviews()
     {
         return $this->hasMany(review::class);
+    }
+
+    public function bookings()
+    {
+        return $this->hasMany(booking::class);
+    }
+
+    public function unavailableDatesForBooking()
+    {
+        $dates = [];
+        $bookings = $this->bookings()->where('checkOutDate', ">", Carbon::now())->get();
+        foreach ($bookings as $booking) {
+            $duration = $booking->checkOutDate->diffInDays($booking->checkInDate);
+            $temp = $booking->checkInDate->format('d F Y');
+            if (!in_array($temp, $dates)) {
+                $dates[] = $temp;
+            }
+
+            for ($i = 1; $i < $duration; $i++) {
+                $temp = $booking->checkInDate->addDays($i)->format('d F Y');
+                if (!in_array($temp, $dates)) {
+                    $dates[] = $temp;
+                }
+            }
+        }
+        return $dates;
     }
 
     public function rating()

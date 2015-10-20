@@ -70,14 +70,16 @@ class FrontEndController extends Controller
                                                 'wishList',
                                                 'media',
                                                 'facilities',
-                                                "services"
+                                                "services",
+                                                "bookings",
                                             ])->findOrFail($propertyId);
         JavaScriptFacade::put([
-                                  'property' => $property
+                                  'property' => $property,
+                                'unavailableDates'=> $property->unavailableDatesForBooking()
                               ]);
-        if($request->user()){
+        if ($request->user()) {
             JavaScriptFacade::put([
-                                      'userId'   => $request->user()->id
+                                      'userId' => $request->user()->id
                                   ]);
         }
 
